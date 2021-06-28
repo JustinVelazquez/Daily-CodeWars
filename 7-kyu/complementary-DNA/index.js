@@ -1,5 +1,6 @@
 function DNAStrand(dna) {
   let newString = '';
+  let pushCounter = 0;
 
   for (let i = 0; i < dna.length; i++) {
     switch (dna[i]) {
