@@ -1,5 +1,5 @@
 function scale(strng, k, n) {
-  // Take in our string and split it.
+  // Take in our string and split it. nooo
   // for each substring we get, we can iterate through each subsection and perofrm the operations
   // if we get a empty string we return an empty string
 
