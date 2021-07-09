@@ -1,4 +1,4 @@
-// const solve = (a) => a.map((v) => new Set(v).size).reduce((v, w) => v * w, 1);
+const solve = (a) => a.map((v) => new Set(v).size).reduce((v, w) => v * w, 1);
 
 // const solve = (arr) => arr.reduce((res, a) => res * new Set(a).size, 1);
 
