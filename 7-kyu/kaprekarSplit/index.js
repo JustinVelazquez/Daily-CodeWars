@@ -2,7 +2,7 @@ function kaprekarSplit(n) {
   //We taking in a number. No negatives, no floats. Just intergers.
   // We want to return the index number of where we need to split our interger so it is a Kaperkar Split Interger
   // If it doesnt pass we return ----> -1
-  // && if our arugument is 1 we return  ----> 0
+  // if our arugument is 1 we return  ----> 0
 
   //Examples
   // 45  -> 2
