@@ -1,6 +1,7 @@
 function count(string) {
   // The function code should be here
   //   if string.length === 0 return {}
+  // overwatch
 
   let charMap = {};
   for (let char of string) {
