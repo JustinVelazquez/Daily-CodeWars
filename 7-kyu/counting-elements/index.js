@@ -6,3 +6,4 @@ function count(array) {
   });
   return namesObject;
 }
+// add comment here
