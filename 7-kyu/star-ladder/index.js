@@ -9,16 +9,26 @@
 // 1*2
 // 1**3
 
-function pattern(n) {
-  let output = '';
-  for (let i = 1; i <= n; i++) {
-    if (i == 1) {
-      output += +i + '\n';
-    } else if (i == n) {
-      output += +1 + '*'.repeat(i - 1) + +i;
-    } else {
-      output += +1 + '*'.repeat(i - 1) + +i + '\n';
+// function pattern(n) {
+//   let output = '';
+//   for (let i = 1; i <= n; i++) {
+//     if (i == 1) {
+//       output += +i + '\n';
+//     } else if (i == n) {
+//       output += +1 + '*'.repeat(i - 1) + +i;
+//     } else {
+//       output += +1 + '*'.repeat(i - 1) + +i + '\n';
+//     }
+//   }
+//   return output;
+// }
+
+// V2. Less computential input
+function pattern(n){
+    var result = '1'
+    for (var i = 2; i <= n; i++){
+      result += '\n1' + '*'.repeat(i-1) + i
     }
-  }
-  return output;
+    return result
+
 }
