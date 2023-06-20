@@ -6,6 +6,6 @@
 
 // For example, in Ruby, That means str.upcase.downcase.size > str.size
 
-// You should just set the value of STRANGE_STRING to meet the previous criteria.
+
 
 const STRANGE_STRING = 'oßo';
